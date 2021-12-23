@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:theme="@android:style/Theme.Holo.Light">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <EditText
+            android:id="@+id/editText_serverLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@android:drawable/editbox_background"
+            android:singleLine="true"
+            android:text="121.40.165.18"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat" />
+
+        <EditText
+            android:id="@+id/editText_portNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText_serverLocation"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:hint="Port number"
+            android:inputType="number"
+            android:singleLine="true"
+            android:text="8800"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText_portNumber"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:onClick="clickStart"
+            android:text="(dis)connect"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat" />
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:onClick="clickSend"
+            android:text="send"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat" />
+
+
+        <EditText
+            android:id="@+id/editText_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_send"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@android:drawable/editbox_background"
+            android:singleLine="true"
+            android:text="121.40.165.18"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat" />
+
+
+        <TextView
+            android:id="@+id/textView_counter"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/editText_message"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:drawable/alert_light_frame"
+            android:gravity="center_vertical|center_horizontal"
+            android:singleLine="false"
+            android:text="dumb-increment-protocol"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+</ScrollView>

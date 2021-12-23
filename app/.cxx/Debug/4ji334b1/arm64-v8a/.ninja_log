@@ -1,0 +1,8 @@
+# ninja log v5
+0	278	661946175	CMakeFiles/libsocket.dir/LwsService.cpp.o	3cd1e2d175b4dd6a
+279	386	661946175	C:/Users/zajhe/Desktop/workspace/libsocket/app/build/intermediates/cxx/Debug/4ji334b1/obj/arm64-v8a/liblibsocket.so	6789bb2888fc1040
+3	101	661947070	C:/Users/zajhe/Desktop/workspace/libsocket/app/libs/arm64-v8a}/liblibsocket.so	69cea19c8bb6264d
+2	208	661947195	CMakeFiles/libsocket.dir/LwsService.cpp.o	3cd1e2d175b4dd6a
+209	310	661947195	C:/Users/zajhe/Desktop/workspace/libsocket/app/libs/arm64-v8a}/liblibsocket.so	69cea19c8bb6264d
+3	267	661947234	CMakeFiles/libsocket.dir/LwsService.cpp.o	3cd1e2d175b4dd6a
+267	371	661947234	C:/Users/zajhe/Desktop/workspace/libsocket/app/libs/arm64-v8a}/liblibsocket.so	69cea19c8bb6264d
