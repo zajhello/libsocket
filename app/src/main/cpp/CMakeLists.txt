@@ -14,7 +14,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/../../../libs/${C
 
 include_directories(include/libwebsocket
         include/libuv
-        include/openssl
+#        include/openssl
         include/zlib
         )
 
@@ -38,24 +38,24 @@ set_target_properties(libuv
         ${CMAKE_CURRENT_SOURCE_DIR}/../jniLibs/${CMAKE_ANDROID_ARCH_ABI}/libuv.a)
 
 
-add_library(libssl
-        STATIC
-        IMPORTED)
-
-set_target_properties(libssl
-        PROPERTIES
-        IMPORTED_LOCATION
-        ${CMAKE_CURRENT_SOURCE_DIR}/../jniLibs/${CMAKE_ANDROID_ARCH_ABI}/libssl.a)
-
-
-add_library(libcrypto
-        STATIC
-        IMPORTED)
-
-set_target_properties(libcrypto
-        PROPERTIES
-        IMPORTED_LOCATION
-        ${CMAKE_CURRENT_SOURCE_DIR}/../jniLibs/${CMAKE_ANDROID_ARCH_ABI}/libcrypto.a)
+#add_library(libssl
+#        STATIC
+#        IMPORTED)
+#
+#set_target_properties(libssl
+#        PROPERTIES
+#        IMPORTED_LOCATION
+#        ${CMAKE_CURRENT_SOURCE_DIR}/../jniLibs/${CMAKE_ANDROID_ARCH_ABI}/libssl.a)
+#
+#
+#add_library(libcrypto
+#        STATIC
+#        IMPORTED)
+#
+#set_target_properties(libcrypto
+#        PROPERTIES
+#        IMPORTED_LOCATION
+#        ${CMAKE_CURRENT_SOURCE_DIR}/../jniLibs/${CMAKE_ANDROID_ARCH_ABI}/libcrypto.a)
 
 
 add_library(libz
@@ -106,7 +106,7 @@ target_link_libraries( # Specifies the target library.
         # included in the NDK.
         libwebsockets
         libuv
-        libssl
-        libcrypto
+#        libssl
+#        libcrypto
         libz
         ${log-lib})

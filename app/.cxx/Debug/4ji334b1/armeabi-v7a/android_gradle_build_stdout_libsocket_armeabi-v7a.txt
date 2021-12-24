@@ -1,0 +1,1 @@
+ninja: Entering directory `C:\Users\zajhe\Desktop\workspace\libsocket\app\.cxx\Debug\4ji334b1\armeabi-v7a'

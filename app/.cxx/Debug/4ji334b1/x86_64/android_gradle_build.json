@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "C:\\Users\\zajhe\\Desktop\\workspace\\libsocket\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\zajhe\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\zajhe\\Desktop\\workspace\\libsocket\\app\\.cxx\\Debug\\4ji334b1\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\zajhe\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\zajhe\\Desktop\\workspace\\libsocket\\app\\.cxx\\Debug\\4ji334b1\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "libsocket-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\zajhe\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Users\\zajhe\\Desktop\\workspace\\libsocket\\app\\.cxx\\Debug\\4ji334b1\\x86_64",
+        "libsocket"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "libsocket",
+      "output": "C:\\Users\\zajhe\\Desktop\\workspace\\libsocket\\app\\libs\\x86_64}\\liblibsocket.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

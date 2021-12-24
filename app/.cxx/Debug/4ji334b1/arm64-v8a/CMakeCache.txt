@@ -217,7 +217,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 libsocket_BINARY_DIR:STATIC=C:/Users/zajhe/Desktop/workspace/libsocket/app/.cxx/Debug/4ji334b1/arm64-v8a
 
 //Dependencies for the target
-libsocket_LIB_DEPENDS:STATIC=general;libwebsockets;general;libuv;general;libssl;general;libcrypto;general;libz;general;C:/Users/zajhe/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so;
+libsocket_LIB_DEPENDS:STATIC=general;libwebsockets;general;libuv;general;libz;general;C:/Users/zajhe/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so;
 
 //Value Computed by CMake
 libsocket_SOURCE_DIR:STATIC=C:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp

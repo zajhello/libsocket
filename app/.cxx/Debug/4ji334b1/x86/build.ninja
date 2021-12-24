@@ -51,7 +51,7 @@ build CMakeFiles/libsocket.dir/LwsService.cpp.o: CXX_COMPILER__libsocket C$:/Use
   DEFINES = -Dlibsocket_EXPORTS
   DEP_FILE = CMakeFiles\libsocket.dir\LwsService.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/libwebsocket -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/libuv -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/openssl -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/zlib
+  INCLUDES = -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/libwebsocket -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/libuv -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/zlib
   OBJECT_DIR = CMakeFiles\libsocket.dir
   OBJECT_FILE_DIR = CMakeFiles\libsocket.dir
 
@@ -63,10 +63,10 @@ build CMakeFiles/libsocket.dir/LwsService.cpp.o: CXX_COMPILER__libsocket C$:/Use
 # Link the shared library C:\Users\zajhe\Desktop\workspace\libsocket\app\libs\x86}\liblibsocket.so
 
 ident0 = C:/Users/zajhe/Desktop/workspace/libsocket/app/libs/x86}/liblibsocket.so
-build $ident0: CXX_SHARED_LIBRARY_LINKER__libsocket CMakeFiles/libsocket.dir/LwsService.cpp.o | C$:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libwebsockets.a C$:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libuv.a C$:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libssl.a C$:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libcrypto.a C$:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libz.a C$:/Users/zajhe/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so
+build $ident0: CXX_SHARED_LIBRARY_LINKER__libsocket CMakeFiles/libsocket.dir/LwsService.cpp.o | C$:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libwebsockets.a C$:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libuv.a C$:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libz.a C$:/Users/zajhe/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
-  LINK_LIBRARIES = C:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libwebsockets.a C:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libuv.a C:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libssl.a C:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libcrypto.a C:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libz.a -llog -latomic -lm
+  LINK_LIBRARIES = C:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libwebsockets.a C:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libuv.a C:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/../jniLibs/x86/libz.a -llog -latomic -lm
   OBJECT_DIR = CMakeFiles\libsocket.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
