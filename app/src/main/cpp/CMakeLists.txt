@@ -12,10 +12,10 @@ project("libsocket")
 # .so输出路径
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/../../../libs/${CMAKE_ANDROID_ARCH_ABI}})
 
-include_directories(include/libwebsocket/include
-        include/libuv/include
-        include/openssl/include
-        include/zlib/include
+include_directories(include/libwebsocket
+        include/libuv
+        include/openssl
+        include/zlib
         )
 
 add_library(libwebsockets
