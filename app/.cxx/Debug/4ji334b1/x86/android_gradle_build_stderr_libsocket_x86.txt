@@ -1,0 +1,1 @@
+ninja: error: 'C:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/jniLibs/x86/libwebsockets.a', needed by 'C:/Users/zajhe/Desktop/workspace/libsocket/app/libs/x86}/liblibsocket.so', missing and no known rule to make it

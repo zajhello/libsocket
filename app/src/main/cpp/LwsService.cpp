@@ -1,4 +1,4 @@
-#include "include/libwebsocket/include/libwebsockets.h"
+#include "include/libwebsocket/libwebsockets.h"
 
 #include <jni.h>
 #include <android/log.h>

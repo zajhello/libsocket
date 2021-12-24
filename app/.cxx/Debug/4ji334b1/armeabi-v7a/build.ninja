@@ -51,7 +51,7 @@ build CMakeFiles/libsocket.dir/LwsService.cpp.o: CXX_COMPILER__libsocket C$:/Use
   DEFINES = -Dlibsocket_EXPORTS
   DEP_FILE = CMakeFiles\libsocket.dir\LwsService.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/libwebsocket/include -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/libuv/include -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/openssl/include -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/zlib/include
+  INCLUDES = -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/libwebsocket -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/libuv -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/openssl -IC:/Users/zajhe/Desktop/workspace/libsocket/app/src/main/cpp/include/zlib
   OBJECT_DIR = CMakeFiles\libsocket.dir
   OBJECT_FILE_DIR = CMakeFiles\libsocket.dir
 

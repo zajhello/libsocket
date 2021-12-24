@@ -6,3 +6,7 @@
 209	310	661947195	C:/Users/zajhe/Desktop/workspace/libsocket/app/libs/arm64-v8a}/liblibsocket.so	69cea19c8bb6264d
 3	267	661947234	CMakeFiles/libsocket.dir/LwsService.cpp.o	3cd1e2d175b4dd6a
 267	371	661947234	C:/Users/zajhe/Desktop/workspace/libsocket/app/libs/arm64-v8a}/liblibsocket.so	69cea19c8bb6264d
+0	198	662033392	build.ninja	5172fb478d623d3a
+0	6	0	clean	c75a0b5da676d2a2
+3	284	662033576	CMakeFiles/libsocket.dir/LwsService.cpp.o	2d8f0412fdf66085
+284	1941	662033577	C:/Users/zajhe/Desktop/workspace/libsocket/app/libs/arm64-v8a}/liblibsocket.so	69cea19c8bb6264d
