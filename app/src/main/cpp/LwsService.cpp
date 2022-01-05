@@ -121,8 +121,7 @@ static int callback(struct lws *wsi, enum lws_callback_reasons reason, void *use
 static struct lws_protocols protocols[] = {
         {
                 "dumb-increment-protocol",
-                callback,
-                     sizeof(struct per_session_data),
+                callback,sizeof(struct per_session_data),
                 BUFFER_SIZE,
         },
         {NULL, NULL, 0, 0} // end of list
